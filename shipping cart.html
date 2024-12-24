@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping Cart</title>
+  
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet">
+ 
+    <link rel="stylesheet" href="shipping cart.css">
+</head>
+<body>
+    <div class="container my-5">
+       
+        <div class="d-flex justify-content-between align-items-center mb-4">
+            <h1 class="fw-bold">Shopping Cart</h1>
+            <a href="home.php" class="btn btn-primary rounded-pill px-4 home-btn">Home</a>
+        </div>
+
+
+        <div class="row">
+
+            <div class="col-lg-8">
+             
+                <div class="cart-item d-flex justify-content-between align-items-center border-bottom py-3">
+                    <img src="./products-imgs/image.png" alt="Pantony X21" class="rounded">
+                    <div class="item-details flex-grow-1 ms-3">
+                        <p class="mb-1 fw-bold">Pantony X21 5G, 128GB With Z Pen</p>
+                    </div>
+                    <div class="d-flex align-items-center">
+                        <input type="number" class="form-control quantity-input-number me-3 border" value="1" min="1">
+                        <p class="mb-0 fw-bold">$681</p>
+                    </div>
+                    <button class="btn delete-btn">&times;</button>
+                </div>
+
+             
+                <div class="cart-item d-flex justify-content-between align-items-center border-bottom py-3">
+                    <img src="./products-imgs/th.jpeg" alt="Samsung Galaxy" class="rounded">
+                    <div class="item-details flex-grow-1 ms-3">
+                        <p class="mb-1 fw-bold">Samsung Galaxy Book2 Pro 360 15.6</p>
+                    </div>
+                    <div class="d-flex align-items-center">
+                        <input type="number" class="form-control quantity-input-number me-3" value="1" min="1">
+                        <p class="mb-0 fw-bold">$681</p>
+                    </div>
+                    <button class="btn delete-btn">&times;</button>
+                </div>
+
+          
+                <div class="cart-item d-flex justify-content-between align-items-center border-bottom py-3">
+                    <img src="./products-imgs/th (3).jpeg" alt="iPhone 11" class="rounded">
+                    <div class="item-details flex-grow-1 ms-3">
+                        <p class="mb-1 fw-bold">iPhone 11 Purple</p>
+                    </div>
+                    <div class="d-flex align-items-center">
+                        <input type="number" class="form-control quantity-input-number me-3" value="1" min="1">
+                        <p class="mb-0 fw-bold">$681</p>
+                    </div>
+                    <button class="btn delete-btn">&times;</button>
+                </div>
+            </div>
+
+           
+            <div class="col-lg-4">
+                <div class="m-3 shadow rounded bg-light summary-box">
+                    <h3 class="fw-bold mb-5">Summary</h3>
+                    <div class="d-flex justify-content-between mb-2">
+                        <p class="m-1 p-1">SubTotal:</p>
+                        <p class="m-1 p-1" id="subtotal">$1,120.00</p>
+                    </div>
+                    <div class="d-flex justify-content-between mb-3">
+                        <p class="m-1 p-1">Estimated Shipping:</p>
+                        <p class="m-1 p-1">$0.00</p>
+                    </div>
+                    
+                    <div class="d-flex justify-content-between mb-4">
+                        <p class="fw-bold m-2 p-2">Total:</p>
+                        <p class="fw-bold m-2 p-2" id="total">$1,120.00</p>
+                    </div>
+                    <button class="btn btn-primary w-100 rounded-pill checkout-btn">c h e c k o u t</button>
+                </div>
+            </div>
+        </div>
+
+       
+        <div class="d-flex justify-content-between mt-4">
+            <button class="btn continue-btn" >Continue Shopping</button>
+            <button class="btn btn-dark rounded-pill" id="clear-cart">Clear Shopping Cart</button>
+        </div>
+    </div>
+
+
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+  
+    <script src="shipping cart.js"></script>
+</body>
+</html>

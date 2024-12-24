@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Delivery - Electronics Store</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <h1>Electronics Store - Delivery</h1>
+        <p>Track your orders and manage delivery options.</p>
+    </header>
+
+    <main class="content">
+        <section class="delivery-form">
+            <h2>Delivery Information</h2>
+            <form id="deliveryForm">
+                <label for="orderID">Order ID:</label>
+                <input type="text" id="orderID" name="orderID" placeholder="Enter your Order ID" required>
+
+                <label for="deliveryAddress">Delivery Address:</label>
+                <textarea id="deliveryAddress" name="deliveryAddress" rows="4" placeholder="Enter your delivery address" required></textarea>
+
+                <label for="deliveryDate">Preferred Delivery Date:</label>
+                <input type="date" id="deliveryDate" name="deliveryDate" required>
+
+                <label for="contactNumber">Contact Number:</label>
+                <input type="tel" id="contactNumber" name="contactNumber" placeholder="Enter your phone number" required>
+
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+
+      
+    </main>
+
+    <footer class="footer">
+        <p>&copy; 2024 Electronics Store. All Rights Reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

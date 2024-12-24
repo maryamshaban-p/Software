@@ -1,0 +1,132 @@
+/* General Reset */
+body, h1, h2, h3, p, ul {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  body {
+    line-height: 1.6;
+  }
+  
+  /* Navbar */
+  .navbar {
+    background-color: #333;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+  }
+  
+  .navbar h1 {
+    margin: 0;
+  }
+  
+  .navbar ul {
+    list-style: none;
+    display: flex;
+  }
+  
+  .navbar ul li {
+    margin: 0 10px;
+  }
+  
+  .navbar ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 5px 10px;
+  }
+  
+  .navbar ul li a.active, .navbar ul li a:hover {
+    background-color: #007BFF;
+    border-radius: 5px;
+  }
+  
+  /* About Section */
+  .about-section {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #f9f9f9;
+  }
+  
+  .about-section h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+  }
+  
+  .about-section p {
+    font-size: 1.2em;
+    color: #555;
+  }
+  
+  /* Team Section */
+  .team-section {
+    padding: 50px 20px;
+    background-color: #fff;
+  }
+  
+  .team-section h2 {
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 20px;
+  }
+  
+  .team-members {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  
+  .team-member {
+    text-align: center;
+    width: 250px;
+  }
+  
+  .team-member img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+  }
+  
+  .team-member h3 {
+    font-size: 1.2em;
+    margin-top: 10px;
+  }
+  
+  .team-member p {
+    color: #777;
+  }
+  
+  /* Contact Section */
+  .contact-section {
+    padding: 50px 20px;
+    background-color: #f9f9f9;
+    text-align: center;
+  }
+  
+  .contact-section h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+  }
+  
+  .contact-section ul {
+    list-style: none;
+    color: #555;
+    font-size: 1.2em;
+  }
+  
+  .contact-section ul li {
+    margin-bottom: 10px;
+  }
+  
+  /* Footer */
+  footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+    margin-top: 20px;
+  }
+  

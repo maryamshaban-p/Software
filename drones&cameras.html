@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drones & Cameras</title>
+    <link rel="stylesheet" href="css/all.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background-color: #e3dbdb;
+        }
+        .container {
+            background-color: #e3dbdb;
+            font-family: sans-serif, 'inter';
+            position: relative;
+
+        }
+
+        .nav {
+            width: 350px;
+            height: 35px;
+            background-color: #908c8c;
+            border-radius: 25px;
+            position: absolute;
+            top: 10px;
+            right: 150px;
+
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+
+        .nav a {
+            color: #fff;
+        }
+
+        .description {
+            margin-top: 15px;
+        }
+        .drones-h {
+            font-style: italic;
+            font-size: 45px;
+            margin-left: 40px;
+        }
+
+        .product-num {
+            position: absolute;
+            top: 70px;
+            left: 50px;
+            font-weight: bold;
+            font-size: 20px;
+        }
+
+        .sort {
+            position: absolute;
+            top: 70px;
+            right: 50px;
+            font-weight: bold;
+            font-size: 20px;
+        }
+
+        .product-img {
+            width: 300px;
+            height: 200px;
+        }
+
+        .products {
+            margin-top: 80px;
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            grid-template-rows: 1fr, 1fr;
+            gap: 40px;
+            margin-left: 45px;
+            margin-bottom: 20px;
+        }
+
+        .product {
+            width: 300px;
+        }
+
+        .product-desc {
+            font-weight: bold;
+        }
+
+        .product-price {
+            color: #fff;
+            font-size: 20px;
+            margin-left: 15px;
+            margin-top: 15px;
+        }
+
+        .star {
+            color: #584ce7;
+            font-size: 14px;
+        }
+
+        .no-star {
+            color: #b4b4b4;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="nav">
+            <a href="#home" class="home">Home</a>
+            <a href="#cart" class="cart">Cart</a>
+        </div>
+
+        <div class="description">
+            <h2 class="drones-h">Drones & Cameras</h2>
+            <span class="product-num">8 Products</span>
+            <span class="sort">Sort by:Recommended</span>
+        </div>
+
+        <div class="products">
+            <div class="product">
+                <img src="products-imgs/Group 9 (2).png" alt="product1" class="product-img">
+                <p class="product-desc">Pantony 180 20.0 Megapixe
+                    l Digital Camera</p>
+                <p class="product-price">$85.00</p>
+                <div class="stars">
+                    <i class="fa-solid fa-star star"></i>
+                    <i class="fa-solid fa-star star"></i>
+                    <i class="fa-solid fa-star star"></i>
+                    <i class="fa-solid fa-star star"></i>
+                    <i class="fa-solid fa-star no-star"></i>
+                </div>
+            </div>
+
+            <div class="product">
+                <img src="products-imgs/Group 10 (3).png" alt="product2" class="product-img">
+                <p class="product-desc">EXE Mini Drone With Sky Controller</p>
+                <p class="product-price">$85.00</p>
+                <div class="stars">
+                    <i class="fa-solid fa-star star"></i>
+                    <i class="fa-solid fa-star star"></i>
+                    <i class="fa-solid fa-star star"></i>
+                    <i class="fa-solid fa-star star"></i>
+                    <i class="fa-solid fa-star no-star"></i>
+                </div>
+            </div>
+
+            <div class="product">
+                <img src="products-imgs/Group 11 (3).png" alt="product3" class="product-img">
+                <p class="product-desc">Megapixel Waterproof Mini Digital Camera</p>
+                <p class="product-price">$70.00</p>
+                <div class="stars">
+                    <i class="fa-solid fa-star star"></i>
+                    <i class="fa-solid fa-star star"></i>
+                    <i class="fa-solid fa-star star"></i>
+                    <i class="fa-solid fa-star star"></i>
+                    <i class="fa-solid fa-star no-star"></i>
+                </div>
+            </div>
+
+            <div class="product">
+                <img src="products-imgs/image (15).png" alt="product4" class="product-img">
+                <p class="product-desc">HKI Tech Quadcopter Drone With 360 Camera & Controller</p>
+                <p class="product-price">$70.00</p>
+                <div class="stars">
+                    <i class="fa-solid fa-star star"></i>
+                    <i class="fa-solid fa-star star"></i>
+                    <i class="fa-solid fa-star star"></i>
+                    <i class="fa-solid fa-star star"></i>
+                    <i class="fa-solid fa-star no-star"></i>
+                </div>
+            </div>
+
+            <div class="product">
+                <img src="products-imgs/image (16).png" alt="product5" class="product-img">
+                <p class="product-desc">Pantony DSLR Old School 
+                    Camera With 18-55mm Lens</p>
+                <p class="product-price">$85.00</p>
+                <div class="stars">
+                    <i class="fa-solid fa-star star"></i>
+                    <i class="fa-solid fa-star star"></i>
+                    <i class="fa-solid fa-star star"></i>
+                    <i class="fa-solid fa-star star"></i>
+                    <i class="fa-solid fa-star no-star"></i>
+                </div>
+            </div>
+
+            <div class="product">
+                <img src="products-imgs/image (17).png" alt="product6" class="product-img">
+                <p class="product-desc">Wave Mini 4 Quadcopter With 
+                    Remote Controller</p>
+                <p class="product-price">$70.00</p>
+                <div class="stars">
+                    <i class="fa-solid fa-star star"></i>
+                    <i class="fa-solid fa-star star"></i>
+                    <i class="fa-solid fa-star star"></i>
+                    <i class="fa-solid fa-star star"></i>
+                    <i class="fa-solid fa-star no-star"></i>
+                </div>
+            </div>
+
+            <div class="product">
+                <img src="products-imgs/image (18).png" alt="product7" class="product-img">
+                <p class="product-desc">Shak Outdoor Spotlight Security Camera</p>
+                <p class="product-price">$85.00</p>
+                <div class="stars">
+                    <i class="fa-solid fa-star star"></i>
+                    <i class="fa-solid fa-star star"></i>
+                    <i class="fa-solid fa-star star"></i>
+                    <i class="fa-solid fa-star star"></i>
+                    <i class="fa-solid fa-star no-star"></i>
+                </div>
+            </div>
+
+            <div class="product">
+                <img src="products-imgs/image (19).png" alt="product8" class="product-img">
+                <p class="product-desc">H1C Indoor Wireless 1080p Network Security Camera</p>
+                <p class="product-price">$70.00</p>
+                <div class="stars">
+                    <i class="fa-solid fa-star star"></i>
+                    <i class="fa-solid fa-star star"></i>
+                    <i class="fa-solid fa-star star"></i>
+                    <i class="fa-solid fa-star star"></i>
+                    <i class="fa-solid fa-star no-star"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
